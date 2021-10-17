@@ -1,0 +1,2 @@
+# rude-mood
+Politeness detector
