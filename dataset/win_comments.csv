@@ -1,31 +1,31 @@
 title,body,votes,subreddit name,author,politeness score
-If you want to run the Windows 11 build natively..,If you're on AMD turn on FTPM in the bios on your custom pc and should then install.,7,windows,Donkerz85,
-If you want to run the Windows 11 build natively..,Y'all just raw dogging a beta OS on your main build? VMs man,2,windows,Bleglord,
+If you want to run the Windows 11 build natively..,If you're on AMD turn on FTPM in the bios on your custom pc and should then install.,7,windows,Donkerz85,1
+If you want to run the Windows 11 build natively..,Y'all just raw dogging a beta OS on your main build? VMs man,2,windows,Bleglord,0
 If you want to run the Windows 11 build natively..,"Be sure to check out our other subreddit /r/Windows11 for more information, news, and discussions about Windows 11.
 
-*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/windows) if you have any questions or concerns.*",1,windows,AutoModerator,
-If you want to run the Windows 11 build natively..,"You do not need TPM to clean install, but the upgrader requires it for some reason.",1,windows,doggodoesaflipinabox,
-If you want to run the Windows 11 build natively..,Well I'm screwed need a new Motherboard and CPU if this TPM 2.0 requirement sticks around since i only have TPM 1.2...,1,windows,Gasrim4003,
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/windows) if you have any questions or concerns.*",1,windows,AutoModerator,2
+If you want to run the Windows 11 build natively..,"You do not need TPM to clean install, but the upgrader requires it for some reason.",1,windows,doggodoesaflipinabox,1
+If you want to run the Windows 11 build natively..,Well I'm screwed need a new Motherboard and CPU if this TPM 2.0 requirement sticks around since i only have TPM 1.2...,1,windows,Gasrim4003,-1
 If you want to run the Windows 11 build natively..,"My main build is used for gaming 90% and the rest is your occasional office task. So why not? Worst case I'll reinstall. My data is backed up constantly and downtime is not going to affect me. 
 
-It's been very stable so far. Couple of glitches now and then but no crash or major issue yet.",1,windows,Chillhoof,
-If you want to run the Windows 11 build natively..,No the clean install also fails for me but refuses to provide a reason. I only found out after running the setup exe on 10,1,windows,Funny744,
-If you want to run the Windows 11 build natively..,Wonder why it installs in VMWare without virtual TPM added. Probably just a bug for now.,1,windows,doggodoesaflipinabox,
+It's been very stable so far. Couple of glitches now and then but no crash or major issue yet.",1,windows,Chillhoof,-1
+If you want to run the Windows 11 build natively..,No the clean install also fails for me but refuses to provide a reason. I only found out after running the setup exe on 10,1,windows,Funny744,0
+If you want to run the Windows 11 build natively..,Wonder why it installs in VMWare without virtual TPM added. Probably just a bug for now.,1,windows,doggodoesaflipinabox,0
 If you want to run the Windows 11 build natively..,"Likely is since it's been a requirement with recent versions of Windows Server.
 
-Either a anti-leak measure to stop it working on most devices or an accidental bit left behind from a piece used in Windows Server",1,windows,Funny744,
-If you want to run the Windows 11 build natively..,Because VMWare supports TPM 2.0. You can google more about it )),1,windows,-DedSec-,
-If you want to run the Windows 11 build natively..,Recent stuff from 2015 onwards was mandated to have TPM to ship with Windows 10.,1,windows,doggodoesaflipinabox,
+Either a anti-leak measure to stop it working on most devices or an accidental bit left behind from a piece used in Windows Server",1,windows,Funny744,0
+If you want to run the Windows 11 build natively..,Because VMWare supports TPM 2.0. You can google more about it )),1,windows,-DedSec-,1
+If you want to run the Windows 11 build natively..,Recent stuff from 2015 onwards was mandated to have TPM to ship with Windows 10.,1,windows,doggodoesaflipinabox,1
 If you want to run the Windows 11 build natively..,"https://imgur.com/a/1dVNfaO
 
-I know what I'm talking about...",1,windows,doggodoesaflipinabox,
+I know what I'm talking about...",1,windows,doggodoesaflipinabox,-1
 If you want to run the Windows 11 build natively..,"That is because you are checking for hardware inside a VM. You won't be seeing something doesn't exist in real lol. Check here and read for yourself: https://i.imgur.com/Ye1IPf0.png 
-Also read more from vmware info here: https://docs.vmware.com/en/VMware-Workstation-Pro/16.0/com.vmware.ws.using.doc/GUID-B42CAC2A-DC3D-4F15-BEFE-AB4319B288CB.html",1,windows,-DedSec-,
+Also read more from vmware info here: https://docs.vmware.com/en/VMware-Workstation-Pro/16.0/com.vmware.ws.using.doc/GUID-B42CAC2A-DC3D-4F15-BEFE-AB4319B288CB.html",1,windows,-DedSec-,-1
 Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"If you don't care about your existing data, just delete it and hit next.  
   
-If you do care about your existing data, cancel the installation, boot into Linux, and create a backup of whatever data you've got on there. Afterwards, boot into the Windows setup again, delete the partition, and hit next.",64,windows,TehNolz,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"Click each partition and click delete, you should have unallocated left. Then click next.",13,windows,Aamir28,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"Delete the partition, then hit next.",11,windows,Froggypwns,
+If you do care about your existing data, cancel the installation, boot into Linux, and create a backup of whatever data you've got on there. Afterwards, boot into the Windows setup again, delete the partition, and hit next.",64,windows,TehNolz,0
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"Click each partition and click delete, you should have unallocated left. Then click next.",13,windows,Aamir28,1
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"Delete the partition, then hit next.",11,windows,Froggypwns,0
 Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"* Shift F10  
 * Diskpart  
 * Select disk 0
@@ -33,7 +33,7 @@ Can anyone help me?I just came back from Linux and I wanted to install windows a
 * Create Partition Primary
 * Format FS=NTFS Quick
 * Active
-* Exit",13,windows,MaIakai,
+* Exit",13,windows,MaIakai,1
 Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"They say that windows can't be installed on this partition.
 That's because of the partition table. (MBR or GPT)
 (You select this partition table when you make the bootable USB)
@@ -67,39 +67,39 @@ If you still get ""windows can't be installed on this partition""(that means the
 
 And you're good to go :D
 
-Do upvote if you found the comment to be helpful.",2,windows,Regies,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"If you want to keep Linux, you need to boot from a Live Linux usb and use gparted to make partition 1 smaller.",2,windows,N0T8g81n,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,This might be a problem with gpt partition or mbr partition method reinstall the usb stick with gpt or mbr in the tool u used to create windows from iso,1,windows,pepsidon,
+Do upvote if you found the comment to be helpful.",2,windows,Regies,2
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"If you want to keep Linux, you need to boot from a Live Linux usb and use gparted to make partition 1 smaller.",2,windows,N0T8g81n,1
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,This might be a problem with gpt partition or mbr partition method reinstall the usb stick with gpt or mbr in the tool u used to create windows from iso,1,windows,pepsidon,0
 Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"This is a ""Question"" post which is to ask questions about Microsoft Windows and its related systems. This is not a tech support subreddit, posts where you need help troubleshooting issues or repairing your computer will be removed. This includes all error messages, blue screens of death, installation issues, and so on. You will want to post these on subreddits like /r/WindowsHelp or /r/TechSupport.
 
 ----
 
-*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/windows) if you have any questions or concerns.*",1,windows,AutoModerator,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"As long as you don't need the data on the disk, click delete on each of the partitions, then click on new and then next.  Windows will create any additional partitions it needs and you can continue with the installation.",1,windows,pantherghast,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"If any data that you need is off of those partitions, you can just hit the ""delete"" button for both of the partitions, and you'll be good to go.",1,windows,TostiWee,
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/windows) if you have any questions or concerns.*",1,windows,AutoModerator,0
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"As long as you don't need the data on the disk, click delete on each of the partitions, then click on new and then next.  Windows will create any additional partitions it needs and you can continue with the installation.",1,windows,pantherghast,1
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"If any data that you need is off of those partitions, you can just hit the ""delete"" button for both of the partitions, and you'll be good to go.",1,windows,TostiWee,1
 Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"When you installed Linux, it looks like it allocated the whole disk.
 
 So delete the large partition and install Windows using the whole disk. 
 
-Note that it will create more than one partition when you do so. This is normal.",1,windows,harrybarracuda,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,Click delete on all Partitions then click New and next.,1,windows,abdusacc,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,Well you've got to format one of them of them or delete it and if it has enough empty space then click next and windows 10 installation will create the partitions it needs automatically. The thingy is 4 GB is to low and the free space on partition 1 is 0 MB so you need to empty some space before proceeding with this installation. Personally I use 150 GB for windows 10 (Well windows 10 will not use all for it) files and programs and sometimes with files and usage I have to clean it up.,1,windows,Anotherday0o,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,Just delete it.,1,windows,vivaanmathur,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,Do you still have issue? Or is it resolved?,1,windows,GreatMuna,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"Rule No. 10, Anyone?",1,windows,princetrigger,
+Note that it will create more than one partition when you do so. This is normal.",1,windows,harrybarracuda,0
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,Click delete on all Partitions then click New and next.,1,windows,abdusacc,0
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,Well you've got to format one of them of them or delete it and if it has enough empty space then click next and windows 10 installation will create the partitions it needs automatically. The thingy is 4 GB is to low and the free space on partition 1 is 0 MB so you need to empty some space before proceeding with this installation. Personally I use 150 GB for windows 10 (Well windows 10 will not use all for it) files and programs and sometimes with files and usage I have to clean it up.,1,windows,Anotherday0o,1
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,Just delete it.,1,windows,vivaanmathur,0
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,Do you still have issue? Or is it resolved?,1,windows,GreatMuna,1
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"Rule No. 10, Anyone?",1,windows,princetrigger,-1
 Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,You have to just delete the partition because Windows doesn't understand Linux filesystems,1,windows,misaalanshori,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"Delete every partition. You don't even need to create new ones, windows will take care of it by itself. Delete all partitions, choose the disc where you want to install windows, (without creating a new partition), and click next. That's all.
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"Delete every partition. You don't even need to create new ones, windows will take care of it by itself. Delete all partitions, choose the disc where you want to install windows, (without creating a new partition), and click next. That's all.1
 
-Later, you will be able to create a 2nd partition using disk manager tool if you want to seperate system from your files. But it's not an obligation.",1,windows,LeVraiRoiDHyrule,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,Don't downgrade,-2,windows,alien2003,
+Later, you will be able to create a 2nd partition using disk manager tool if you want to seperate system from your files. But it's not an obligation.",1,windows,LeVraiRoiDHyrule,1
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,Don't downgrade,-2,windows,alien2003,0
 Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"Yep. And if he wants dual boot, the safest way is to install windows 10 first (leaving enough unallocated space) and THEN install linux + some bootloader.
 
 Because windows does not respect linux boot partition on the same disk.
 
-But if standard windows install freaks him out I don't recommend setting up a dual boot.",8,windows,Rjiurik,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,I did I asked a freind I freaked out I have anxiety,4,windows,Charderrr,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,This should be the right way for ex-Linux user 😁,7,windows,Random_Vandal,
-Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"You can stop at clean, there's no need to manually create a new partition.",3,windows,4wh457,
+But if standard windows install freaks him out I don't recommend setting up a dual boot.",8,windows,Rjiurik,0
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,I did I asked a freind I freaked out I have anxiety,4,windows,Charderrr,1
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,This should be the right way for ex-Linux user 😁,7,windows,Random_Vandal,1
+Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"You can stop at clean, there's no need to manually create a new partition.",3,windows,4wh457,0
 Can anyone help me?I just came back from Linux and I wanted to install windows again and I can’t install it because they are all partitions.What do I do?,"This.
 I also prefer to convert to GPT too.
 ""convert gpt""",1,windows,BredzPro,
