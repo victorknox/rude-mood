@@ -1,0 +1,261 @@
+﻿text,prediction,score
+If you're on AMD turn on FTPM in the bios on your custom pc and should then install.,0,0.331031427
+Y'all just raw dogging a beta OS on your main build? VMs man,0,0.270392864
+"Be sure to check out our other subreddit /r/Windows11 for more information, news, and discussions about Windows 11.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/windows) if you have any questions or concerns.*",0,0.217292037
+"You do not need TPM to clean install, but the upgrader requires it for some reason.",0,0.230731604
+Well I'm screwed need a new Motherboard and CPU if this TPM 2.0 requirement sticks around since i only have TPM 1.2...,0,0.322700518
+"My main build is used for gaming 90% and the rest is your occasional office task. So why not? Worst case I'll reinstall. My data is backed up constantly and downtime is not going to affect me. 
+
+It's been very stable so far. Couple of glitches now and then but no crash or major issue yet.",0,0.19571968
+No the clean install also fails for me but refuses to provide a reason. I only found out after running the setup exe on 10,0,0.369078564
+Wonder why it installs in VMWare without virtual TPM added. Probably just a bug for now.,0,0.132850092
+Because VMWare supports TPM 2.0. You can google more about it )),0,0.230731604
+Recent stuff from 2015 onwards was mandated to have TPM to ship with Windows 10.,0,0.218280102
+"That is because you are checking for hardware inside a VM. You won't be seeing something doesn't exist in real lol. Check here and read for yourself: https://i.imgur.com/Ye1IPf0.png 
+Also read more from vmware info here: https://docs.vmware.com/en/VMware-Workstation-Pro/16.0/com.vmware.ws.using.doc/GUID-B42CAC2A-DC3D-4F15-BEFE-AB4319B288CB.html",0,0.166337284
+"If you don't care about your existing data, just delete it and hit next.  
+  
+If you do care about your existing data, cancel the installation, boot into Linux, and create a backup of whatever data you've got on there. Afterwards, boot into the Windows setup again, delete the partition, and hit next.",0,0.270392864
+"Click each partition and click delete, you should have unallocated left. Then click next.",0,0.174161021
+"Delete the partition, then hit next.",0,0.218280102
+"If you want to keep Linux, you need to boot from a Live Linux usb and use gparted to make partition 1 smaller.",0,0.270392864
+This might be a problem with gpt partition or mbr partition method reinstall the usb stick with gpt or mbr in the tool u used to create windows from iso,0,0.13637133
+"This is a ""Question"" post which is to ask questions about Microsoft Windows and its related systems. This is not a tech support subreddit, posts where you need help troubleshooting issues or repairing your computer will be removed. This includes all error messages, blue screens of death, installation issues, and so on. You will want to post these on subreddits like /r/WindowsHelp or /r/TechSupport.
+
+----
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/windows) if you have any questions or concerns.*",0,0.152817012
+"As long as you don't need the data on the disk, click delete on each of the partitions, then click on new and then next.  Windows will create any additional partitions it needs and you can continue with the installation.",0,0.270392864
+"If any data that you need is off of those partitions, you can just hit the ""delete"" button for both of the partitions, and you'll be good to go.",0,0.425089022
+"When you installed Linux, it looks like it allocated the whole disk.
+
+So delete the large partition and install Windows using the whole disk. 
+
+Note that it will create more than one partition when you do so. This is normal.",0,0.425089022
+Click delete on all Partitions then click New and next.,0,0.218280102
+Well you've got to format one of them of them or delete it and if it has enough empty space then click next and windows 10 installation will create the partitions it needs automatically. The thingy is 4 GB is to low and the free space on partition 1 is 0 MB so you need to empty some space before proceeding with this installation. Personally I use 150 GB for windows 10 (Well windows 10 will not use all for it) files and programs and sometimes with files and usage I have to clean it up.,1,0.598891567
+Just delete it.,0,0.218280102
+Do you still have issue? Or is it resolved?,0,0.062697969
+"Rule No. 10, Anyone?",0,0.218280102
+You have to just delete the partition because Windows doesn't understand Linux filesystems,0,0.130686959
+"Delete every partition. You don't even need to create new ones, windows will take care of it by itself. Delete all partitions, choose the disc where you want to install windows, (without creating a new partition), and click next. That's all.1
+
+Later, you will be able to create a 2nd partition using disk manager tool if you want to seperate system from your files. But it's not an obligation.",0,0.078369677
+Don't downgrade,0,0.105753754
+I did I asked a freind I freaked out I have anxiety,0,0.307203346
+This should be the right way for ex-Linux user ðŸ˜,0,0.426560751
+"You can stop at clean, there's no need to manually create a new partition.",0,0.230731604
+"This.
+I also prefer to convert to GPT too.
+""convert gpt""",0,0.457268282
+Well he can't keep Linus I watch his videos everyday.,0,0.457268282
+Itâ€™s resolved,0,0.218280102
+[deleted],0,0.218280102
+"You probably have a linux live usb on standby, so don't worry",0,0.078352682
+I also had anxiety when I booted in linux and came back to windows. Don't worry everything will be okay :-) delete the partition and install windows.,0,0.307203346
+"Donâ€™t mind the assholes who downvoted you. As a person who also kind of have an anxiety in these kind of situations I understand you.
+
+Edit: unfortunately I donâ€™t have any technical knowledge to help you. I came here because I was outraged by the downvote ratio your comment got and wanted to give you some good feelings.",1,0.540057504
+"Donâ€™t worry man, I always get a small flash of anxiety when Iâ€™m deleting partitions to install a new OS",0,0.151715501
+lol,0,0.218280102
+Thanks. I fixed my typo.,1,0.977573478
+"Basically, in Arch you have to setup your own linux bootloader and reuse the windows EFI partition which was created by win 10 installer.
+
+""The Windows installation will create the EFI system partition which can be used by your Linux boot loader. ""
+
+https://wiki.archlinux.org/title/Dual_boot_with_Windows#Windows_before_Linux
+
+Would not be surprised if Ubuntu does that automatically. Only sure thing is that windows does not reciprocate..",0,0.425089022
+Thx,0,0.218280102
+I once installed Linux over a data partition.. ran it that way for a month before I realized what I had done... yeah I have anxiety when I hit delete or format. I check the sizes and names like 3 times before hitting the go button.,0,0.469410011
+[deleted],0,0.218280102
+"Hey! If you were encountering an issue and it is now resolved, please change the post flair to Solved! If you are still looking for more help, then leave it as is. (This message is an auto response to terms like thank you, so I apologize if I spam you)
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/windows) if you have any questions or concerns.*",1,0.999707657
+"For UEFI, The different bootloaders should be installed side by side in the EFI system partition.
+
+The source of truth for your â€œdefaultâ€ EFI bootloader setting is stored in NVRAMâ€”you change this either in your motherboards setup (â€œBIOS Settingsâ€), or via your OSâ€™s settings/command line.",0,0.331031427
+"**Your post has been removed due to the following reasons:** 
+
+* **[Rule 1](https://www.reddit.com/r/Windows/wiki/rules#wiki_1._not_related_to_the_subreddit_or_off-topic):** Content that is not relevant to Microsoft Windows will be removed.
+
+Gave me a chuckle though. Hopefully you've found a better subreddit to post in from the kind people down here in the comments haha. Someone suggested /r/DIY and the subreddits linked on the sidebar there, perhaps give that a look. I wish you luck.
+
+If you think this action was done in error, please contact the moderators [here](https://www.reddit.com/message/compose?to=%2Fr%2FWindows&subject=&message=)",1,0.772347691
+"Yeah, this is kind of funny. I'm leaving it up until I get a report or two.",0,0.307203346
+Try reinstalling.,0,0.218280102
+Don't remove it there's gotta be someone here who knows how to fix this.  I can't lift it up.,0,0.29690944
+This puts a whole new meaning to â€œBlue Screen of Deathâ€,0,0.105753754
+Try reformatting.,0,0.218280102
+Did you back up whats inside?,0,0.270392864
+"This gave me a good chuckle. I understand you're looking for help with a real window. But this is for the Windows OS/Microsoft products/apps.
+
+Checkout the subreddit r/DIY. On the right sidebar there are various other subreddits that may be able to help you.",1,0.510567554
+It took me a good 30 seconds. Top tier laughs.,0,0.357782055
+I'm pretty sure the sill is fragmented which is why you can't tilt it out. You have to defragment and then you should be able to close the window.,0,0.358205968
+"You dropped a shoe on your tilted window. its appears to be fixable, at least this is what google told me. i di'ntd find anything specific to your model of window.
+
+Do you know who sold the windows/made them?",0,0.470355919
+"It looks like there are some dirty remnants of a prior installation. I recommend that you perform a cleanup to remove that junk. Then open the window again, leaving some distance from the bottom of the screen. Then drag only the top of the window up until it snaps in place. You'll then be able to open and close it normally again. If you're still having trouble, I'd recommend getting your Task Manager to inspect the process.",0,0.212235497
+Good advice. Windows work best when restored to factory settings.,1,0.822686753
+Have you tried pushing it down and up again?,0,0.270392864
+"You have to tilt it to get it back in the bottom 2 holes with the spikes that come out either side of the window (on both sides) and then sortof force it back into place (they snap back in, but older ones can crack due to the age of the plastic). Also make sure you applied the February patches, there are some criticals in there.",0,0.077919102
+"Try to run these commands in administrator CMD:  
+
+
+DISM /Online /Cleanup-Image /RestoreHealth  
+sfc /scannow  
+
+
+It will probably not fix it, but give it a try, it can't really make things worse.",0,0.045769935
+"I've seen SR's corrupt multiple times just from windows updates or grass being green. Happens a lot and the best solution is to mitigate the overall issue. 
+
+I have the OS on its own drive and everything else on other drives. 
+
+Takes about 10 minutes to do a full win 10 reinstall when it breaks because the wind changed direction. Takes longer to redo your sgort cuts and stuff plus which software you use that required the registry which usually requires a full reinstall such as Microsoft Office.
+
+Sorry, I've been rambling abit. Hope something in there is at least a little helpful.",1,0.946921444
+"Can you open System Restore without this property page? Type ""System Restore"" in start menu and use Open System Restore or go around in the old control panel and launch it directly. In Task Manager, in services, can you see it? Event viewer logs said anything?",1,0.573771598
+Bite the bullet and reimage.,0,0.218280102
+"A bit off topic, but this pic really made me realize just how ugly and inconsistent Windows 10's UI is. Why on earth are they still using Windows Vista icons???",0,0.017169086
+You are missing a registry key,0,0.130686959
+"Honestly as a casual user of windows, that is my only complaint. I feel like they could improve a lot in terms of the visuals.",0,0.325432747
+"Is that problem encountered when you try to do a restore or when you open the System restore window?
+
+&#x200B;
+
+Could you maybe try in Safe Mode?",1,0.677330055
+"This one is a bitch can't do nothin :-P I had similar problems like this on few PC's and had to reinstall Windows. Currupted files like this were always pain in the ass on Windows but just reverting back to a ""better point"" didn't fix any issue 95% of the time so. . .",0,0.369078564
+"Nope, no one can",0,0.218280102
+"Sorry to break it to you but trying to solve a Windows error like this it's like walking in the dark in a place where you've never been and with rooms that change shape randomly
+
+Windows errors are cryptic and no one know how the hell Windows works, basically the simpler and effective solution it's to reinstall Windows",1,0.780861765
+"I've used Windows since the beginning and have never gotten the restore to work properly.
+
+I haven't used it much as I'd much more prefer a clean install, but when I did it never worked.",1,0.676260137
+Run Cmd in admin Sfc/ Scannow and Reboot and try again,0,0.218280102
+"Start > type services.msc > enter.
+
+Right click â€œMicrosoft Software Shadow Copy Providerâ€ then go to Properties.
+
+Set the startup type as automatic and start the service.
+
+Click ok, restart the computer",0,0.357782055
+Alright so there is a lot more going on here. Once your system restore files are corrupt there is no repair option for them. Back up data and reload with a fresh install.,0,0.238473445
+# HAVE YOU TRIED TURNING IT OFF AND ON AGAIN ?,0,0.270392864
+"You just messed up, Your restore file just got corrupted so it is showing that error",0,0.077919102
+"Try this!
+
+Open COMMAND PROMPT with administration privilege
+Run this command: sfc /scannow
+
+After the completion, restart the PC. Let me know if the issue still persists.",0,0.190902873
+"Did both, surprisingly didn't help",0,0.218280102
+"Thanks brother, I am just reinstalling windows with apps and settings preserved.",1,0.946183011
+"It's so fucking inconsistent, trying to change settings on windows has become a fucking nightmare.",0,0.105753754
+"Vista icons aren't the problem in this screenshot. It's the flat UI with no details, shadows, etc... I hate it.",0,0.151715501
+If you go a little more deep you can find win 98 icons,0,0.425089022
+Itâ€™s also been 8 years with two different Control Panel applications.,0,0.218280102
+"I tried adding that too, error code changed afterwards but problem still persist.",0,0.226727003
+Yeah just did clean install..,0,0.357782055
+I mange about 350 users. My experience with restores is about 80 percent successful.,1,0.580050004
+"That I know, I'm asking for a fix.",0,0.29690944
+"did not help, did dism and sfc scan already",0,0.218280102
+I have the same issue plwase help,0,0.226727003
+No problem. That's my default stance when windows starts playing up. Reformat and reinstall. Nvme 4.0 (I think that's right. I'm really tired right now) makes it a fairly quick process from a USB 3 or higher device.,0,0.325432747
+"Hey! If you were encountering an issue and it is now resolved, please change the post flair to Solved! If you are still looking for more help, then leave it as is. (This message is an auto response to terms like thank you, so I apologize if I spam you)
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/windows) if you have any questions or concerns.*",1,0.999707657
+It's only been 6 years.....Why the hell haven't they fixed that yet?? Windows 10 will forever be a beta OS.,0,0.054381732
+"That too. The red ""X"" icon looks like it was drawn on MS paint.",0,0.357782055
+Why am I not surprised lol,0,0.17037084
+Ikr! It's like just kill off control panel already!,0,0.190902873
+I don't think you can repair a corrupted restore file,0,0.411277937
+that's the best way to describe it. It feels like we're beta testing their software.,1,0.62311721
+"Exactly! That's why there's 750,000 updates every week.",0,0.218280102
+"Just uninstall it again, there are probably some leftover files that havent been removed",0,0.271582013
+"I had this happened to me a couple of days ago as well.  
+
+
+Make sure you don't have any android emulator (or the likes) installed. You can install them back after update otherwise.",0,0.496721223
+"Have you tried turning it off and on again? VirtualBox definitely wants a reboot after uninstalling... VirtualBox drivers integrate pretty closely with all sorts of kernel stuff, so you definitely want to make sure it's completely gone before updating.",0,0.425089022
+Did you uninstall it from Control Panel\\Programs\\Programs and Features?,0,0.270392864
+Did you uninstall it from control panel?,0,0.270392864
+"try Revo Uninstaller, it has a free and paid plan, and I highly suggest it [https://www.revouninstaller.com/](https://www.revouninstaller.com/)  <- this is the official website btw",1,0.601991165
+"If nothing else, reinstall the latest version, and then uninstall via Windows control panel. That might get whatever missing files and registry keys were missed the first time.
+
+During the uninstall, be sure to check any options along the line of ""remove all files"" / ""do NOT keep/store user data""",0,0.13637133
+"Check the control panel. If there isn't an option to uninstall it from there, just manually delete the files left over. They should be either in ""C:\\Program Files\\VirtualBox"" or ""C:\\Program Files\\Oracle\\...\\VirtualBox"". 
+
+&#x200B;
+
+Also, a ton of software uses VirtualBox to run VMs in the background. In that case, the VM installation would be inside that software's installation folder and deleting it would just result in that software not working as needed.
+
+&#x200B;
+
+If you are sure that none of your software uses virtualization and you see nothing in your ""C:\\Programs Files\\..."" resembling virtualbox, the next bet is to just delete the registry keys associated with the VirtualBox installation. There are free programs you can find that clean up your registry and should take care of this stuff for you. If you don't want to download more software, look for a tutorial on YT to delete software registry keys. It's a little risky and you could potentially ruin your Windows installation if you delete something you're not supposed to, so do this at your own risk.",0,0.294846511
+"I haven't used Virtual Box in decades but I do know of some other software that can fail or have issues uninstalling such that the only way to properly uninstall it is to install it again then uninstall. Perhaps, paradoxically, you might might try installing it again then uninstalling it immediately after (perform all reboots as requested).",1,0.610563303
+"If you uninstalled it, did you restart after uninstalling? Sometimes registry changes aren't processed until restart.",0,0.331031427
+What is the version of VirtualBox. Maybe you should update it to the current release,0,0.19396232
+[removed],0,0.218280102
+click the little manually uninstall button,0,0.218280102
+"Had this with vmware. Ended up simply deactivating the Component  responsible for the check. Nothing else worked. I dont remember exactly how but it was on google, somthing with the policy editor.",1,0.580050004
+Hereâ€™s also same and I also canâ€™t update or uninstall VirtualBox is there any manual way to fix,0,0.152522224
+"Did you uninstall it or delete it? There is a difference, uninstall meaning it removes any files related to the program/came with the program, delete it means there could still be leftover files.",0,0.270392864
+Revo Uninstaller is an amazing tool :>,0,0.357782055
+"Well besides try to uninstall again... or reinstall and uninstall, all good suggestions, or get the newest version which does work with windows just fine.
+
+But you also know virtualbox comes with pretty much every android emulator? so if you got memu, or bluestacks or nox or any of a dozen others, they probably installed virtualbox without you knowing it... in that case, upgrading the emulator to the newest version will fix your problem as well.",0,0.151246692
+"You may need to use an external program to clean out the leftover files. It's likely that registry keys got left behind after the uninstallation, so you could use a program like Advanced SystemCare to delete the unnecessary registry entries.",0,0.183750433
+"Impossible, I had VirtualBox and the updates worked. Maybe that's an old leftover or you use Bluestacks or something (it ships it's own portable Virtualbox and OBS if you use recording)",0,0.387388779
+It bothers me that I don't know if there's a real reason or if it's MS playing dirty.,0,0.151715501
+SIR... HAVE YOU UNPLUGGED AND PLUG IT BACK IN YET SIR?,0,0.270392864
+"this is what i use also, it has a good free option works well",0,0.457268282
+"**Comment removed.**
+
+* **[Rule 7:](https://www.reddit.com/r/Windows/wiki/rules#wiki_7_piracy.2C_grey_market_keys.2C_illegal_content)** Piracy is not permitted on this subreddit, consider this your first and final warning. 
+
+A second offence will result in a temporary ban, any further offences will be a permanent ban.
+
+Discussion/advising people to buy gray market keys (including cheap, volume, OEM, KMS, MAK, MSDN keys) are also not allowed.",0,0.135663952
+I love it when the scammers are too stupid to be clever.,0,0.369078564
+"Yup this is the way.  Re-install VirtualBox if you have to so it will show up in the list of programs again, then use Revo to uninstall it and cleanup any leftovers.",0,0.270392864
+What did he say?,0,0.119554027
+If I'd tell you then that'd defeat the entire purpose of removing rule breaking content.,0,0.321386297
+Have you already tried using another hdd or ssd?,0,0.270392864
+Are you using custom memory timings or have your memory set to XMP in the bios? Are you over clocking at all?,0,0.270392864
+I would run memtest86 off UBCD.,0,0.409088438
+"What CPU are you using? If it is an older computer, it might not like UEFI. Make a legacy win10 boot usb and start over.",0,0.324371719
+Make a fresh disk/usb.  You might also try a different usb key.,0,0.49679752
+"When do you get the bsod? During setup? Always at the same spot in setup? If so, where?
+
+I had a similar issue on one of my computers... always a bsod at the same spot when setup was accessing drives. Turned out to be a bad partition on the drive.",0,0.191836352
+GTX 280?!...,0,0.218280102
+"Damn bro, my first decent PC had an i5 650, and it was like 2010. I've still got it and use it as a server.
+You should definitely upgrade at least to an i5 760, they are very cheap and have 4 cores",1,0.610563303
+"When you start the install choose custom installation, and then delete all the partitions, and then continue with the install, choose â€œI do not have a keyâ€ option and tell it you do not have a internet connection, once completed, let us know if it boots up into windows or not. 
+
+Could you give us the make and model of the motherboard?",1,0.823058568
+Make sure in the bios your sata is in ACHI MODE not RAID.,0,0.270392864
+try comeplety formatting the SSD or HDD and try again,0,0.218280102
+So what was the solution OP? Using another HDD/SSD?,0,0.054704275
+"One of the hardware parts is bad. Maybe the drive or memory, or processor or motherboard, or anything. You have to unplug or swap to test.",0,0.078352682
+You have a failing hard drive.,0,0.059858388
+install linux window suck,0,0.105753754
+dont have one,0,0.218280102
+no im not,0,0.29690944
+Did XMP even exist back in 2009/10?,0,0.218280102
+"i5 650, and that sounds like a good idea. thanks",1,0.958667755
+im trying to install windows from my usb stick. The Win10 logo appears and a few seconds after it crashes,0,0.443217708
+yes,0,0.218280102
+"dont worry, this pc is only temporary :) ill get one with an i5 3670 soon ^^",0,0.105753754
+"its a fujitsu OEM Motherboard, i dont know the exact model",0,0.29690944
+swapped out ram. Now i only have 4GB but the pc works,0,0.457268282
+already swapped it out,0,0.218280102
+why are you even on this sub then?,0,0.152700845
+"[i5 650 uses DDR3](https://ark.intel.com/content/www/us/en/ark/products/43546/intel-core-i5-650-processor-4m-cache-3-20-ghz.html), so probably.",0,0.381326859
+"Hey! If you were encountering an issue and it is now resolved, please change the post flair to Solved! If you are still looking for more help, then leave it as is. (This message is an auto response to terms like thank you, so I apologize if I spam you)
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/windows) if you have any questions or concerns.*",1,0.999707657
